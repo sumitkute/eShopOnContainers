@@ -2,7 +2,7 @@
    <img src="https://github.com/dotnet-architecture/eShopOnContainers/raw/dev/img/eshop_logo.png" alt="eShop logo" title="eShopOnContainers" align="right" height="60" />
 </a>
 
-# .NET Microservices Sample Reference Application
+# .NET Microservices Sample Reference Application - SUMIT
 
 Sample .NET Core reference application, powered by Microsoft, based on a simplified microservices architecture and Docker containers.
 
