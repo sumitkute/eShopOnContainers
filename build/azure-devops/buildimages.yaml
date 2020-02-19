@@ -1,9 +1,12 @@
 parameters:
-  services: ''
-  registryEndpoint: 'democontainerregistry.azurecr.io'
-  helmfrom: ''
-  helmto: ''
-
+  - name : services
+    default: ''
+  - name : registryEndpoint
+    default: ''
+  - name : helmfrom
+    default: ''
+  - name : helmto
+    default: ''
 jobs:
 - job: BuildContainersForPR_Linux
   condition: eq('${{ variables['Build.Reason'] }}', 'PullRequest')
