@@ -1,5 +1,5 @@
 parameters:
-  services: ''
+  services: 'basket-api'
   registryEndpoint: 'democontainerregistry.azurecr.io'
   helmfrom: 'deploy/k8s/helm'
   helmto: ''
