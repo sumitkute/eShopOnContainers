@@ -1,7 +1,7 @@
 parameters:
   services: ''
-  registryEndpoint: ''
-  helmfrom: ''
+  registryEndpoint: 'democontainerregistry.azurecr.io'
+  helmfrom: 'deploy/k8s/helm'
   helmto: ''
 
 jobs:
