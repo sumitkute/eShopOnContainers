@@ -1,12 +1,9 @@
+trigger: none
 parameters:
-  - name : services
-    default: ''
-  - name : registryEndpoint
-    default: ''
-  - name : helmfrom
-    default: ''
-  - name : helmto
-    default: ''
+  services: ''
+  registryEndpoint: ''
+  helmfrom: ''
+  helmto: ''
 jobs:
 - job: BuildContainersForPR_Linux
   condition: eq('${{ variables['Build.Reason'] }}', 'PullRequest')
