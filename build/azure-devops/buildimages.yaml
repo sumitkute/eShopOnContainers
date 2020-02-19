@@ -1,6 +1,6 @@
 parameters:
   services: ''
-  registryEndpoint: ''
+  registryEndpoint: 'democontainerregistry.azurecr.io'
   helmfrom: ''
   helmto: ''
 
